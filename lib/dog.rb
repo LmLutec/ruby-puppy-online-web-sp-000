@@ -12,7 +12,7 @@ class Dog
   def self.all 
     @@all.collect do |dog|
     end 
-    name 
+    @name 
   end
   
   def self.clear_all 
