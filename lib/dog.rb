@@ -9,7 +9,6 @@ class Dog
   end 
   
   def self.all 
-    binding.pry 
     @@all.collect do |dog|
       @name
     end 
