@@ -9,9 +9,8 @@ class Dog
   end 
   
   def self.all 
+    binding.pry 
     @@all.collect do |dog|
-      @@all  
-      binding.pry 
     end 
   end
   
