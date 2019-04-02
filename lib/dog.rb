@@ -11,8 +11,8 @@ class Dog
   
   def self.all 
     @@all.collect do |dog|
+      @@all 
     end 
-    @name 
   end
   
   def self.clear_all 
