@@ -11,7 +11,6 @@ class Dog
   
   def self.all 
     @@all.collect do |dog|
-     binding.pry 
      puts @@all  
     end 
   end
